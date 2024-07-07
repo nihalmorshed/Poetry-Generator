@@ -37,7 +37,7 @@ This will generate and print a 10-line poem.
 
 ## Requirements
 
-- Python 3.x
+- Python 3
 - numpy
 - string
 
@@ -51,7 +51,7 @@ pip install numpy
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/nihalmorshed/poetry-generator.git
+   git clone https://github.com/nihalmorshed/Poetry-Generator
    ```
 2. Navigate to the project directory:
    ```bash
