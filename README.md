@@ -22,18 +22,17 @@ The project involves the following steps:
 - `remove_punctuation(s)`: Removes punctuation from a given string.
 - `add2dict(d, k, v)`: Helper function to add entries to the dictionary for the Markov model.
 - `sample_word(d)`: Samples a word based on the distribution in the dictionary.
-- `generate(initial, first_order, second_order, n)`: Generates poetry using the Markov models.
+- `generate()`: Generates poetry using the Markov models.
 
 ## Example Usage
 
 To generate a poem with the trained Markov model, you can run the following code snippet:
 
 ```python
-poem = generate(initial, first_order, second_order, n=10)
-print(poem)
+ generate()
 ```
 
-This will generate and print a 10-line poem.
+This will generate and print a 4-line poem.
 
 ## Requirements
 
